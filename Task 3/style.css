@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background-color: white;
+    margin: 0;
+}
+.main {
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.main h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(49, 43, 226);
+    margin: 0;
+    padding: 15px;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    background-color: #2115c4;
+    padding: 6px 18px;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.home {
+    background-color: #e2ffe0;
+    border: 1px solid pink;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 10px;
+}
+.gallery {
+    background-color: #c9ffd0;
+    border: 1px solid lightgreen;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+.gallery img {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.contact {
+    background-color: #ccecff;
+    border: 1px solid skyblue;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 10px;
+}
+h2 {
+    margin: 0;
+    color: darkred;
+}

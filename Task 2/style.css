@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    background-color: white;
+}
+.box {
+    width: 500px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.box h1 {
+    color: darkblue;
+    font-size: 24px;
+}
+.box hr {
+    border: 1px solid black;
+}
+.box p {
+    margin: 6px;
+}
