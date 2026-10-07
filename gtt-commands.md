@@ -42,4 +42,30 @@ Note: defult branch is alwaus "master"
 ```
     git remote -v
 ```
-9. 
+9. To update the remote repo url
+``` 
+   git remote set-url orihin [your_repo_url]
+   To verify/Display added remote url:
+   git remote -v
+```
+10. To config the user.name and user.email:
+```
+    Project Based config:
+    git config user.name [your_github_username]
+    git config uder.email [your_guthub_email]
+
+    Global config:
+    git config --global user.name [your_github_username]
+    git config --global user.email [your_github_email]
+
+    To verify/Display config (Note: enter to view more config and q to exit the opened editior):
+    git config --list
+```
+# After changing on project
+1. git add .
+2. git commit -m "[your_commit_message]"
+3. git push
+# using personal account Token (PAT) on https url:
+ https://[PAT]@github.com/[github_username]/[Project_name]
+
+To update remote url:
