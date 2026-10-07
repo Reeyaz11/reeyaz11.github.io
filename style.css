@@ -17,8 +17,6 @@ body {
 }
 
 
-/* HEADER */
-
 header {
     text-align: center;
     padding: 90px 20px 60px;
@@ -42,8 +40,6 @@ h1 {
     line-height: 1.6;
 }
 
-
-/* PROJECT CARDS */
 
 .projects {
     display: flex;
@@ -103,8 +99,6 @@ h1 {
 }
 
 
-/* FOOTER */
-
 footer {
     text-align: center;
     padding: 70px 0 30px;
@@ -113,8 +107,6 @@ footer {
     font-size: 14px;
 }
 
-
-/* PHONE */
 
 @media (max-width: 700px) {
 
